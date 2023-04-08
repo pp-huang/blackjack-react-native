@@ -1,0 +1,47 @@
+# .gitignore for React Native
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# iOS build artifacts
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcuserdata
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.perspectivev3
+*.xcuserstate
+*.xcscheme
+*.xcscmblueprint
+
+# Android build artifacts
+android/app/build/
+android/.gradle/
+local.properties
+
+# Bundle artifacts
+*.jsbundle
+*.jsbundle.map
+
+# Keystore files
+*.jks
+*.keystore
+
+# IDE files
+.idea/
+*.iml
+*.swp
+*.swo
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+.expo/
+.vscode/

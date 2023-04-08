@@ -1,0 +1,35 @@
+{
+  "name": "blackjack-react-native",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~48.0.9",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.71.4",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-web": "~0.18.11",
+    "expo-linear-gradient": "~12.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "^0.71.5",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-native": "^4.0.0",
+    "prettier": "^2.8.7",
+    "typescript": "^4.9.4"
+  },
+  "private": true
+}
