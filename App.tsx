@@ -1,22 +1,24 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import Game from './src/screens/Game';
+import { IP_ADDRESS } from './config';
 
 export default function App() {
-    return <Game />;
-    // return (
-    //   <View style={styles.container}>
-    //     <Text>Open up App.tsx to start working on your app!</Text>
-    //     <StatusBar style="auto" />
-    //   </View>
-    // );
-}
+    const [data, setData] = useState([]);
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
+    useEffect(() => {
+        axios
+            .get(`http://${IP_ADDRESS}:8000/`)
+            .then((response) => {
+                console.log('Successfully connected to server...');
+                setData(response.data);
+            })
+            .catch((err) => {
+                console.log('Error connecting to server: ' + err.message);
+            });
+    }, []);
+
+    console.log('data: ', data);
+
+    return <Game />;
+}
