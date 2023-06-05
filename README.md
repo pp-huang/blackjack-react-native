@@ -27,22 +27,28 @@ expo start
 This will start the Metro Bundler and you can now run the application on your device or emulator by following the instructions on the screen.
 
 ### Features
-Intuitive and user-friendly interface
-Real-time advice on the next move to make in a Blackjack game
-Works on both Android and iOS platforms
+-Intuitive and user-friendly interface
+
+-Real-time advice on the next move to make in a Blackjack game
+
+-Works on both Android and iOS platforms
 
 ### Tech Stack
-React Native: A framework for building native apps using React
-Expo: An open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React
-Typescript
-Axios
+-React Native: A framework for building native apps using React
+
+-Expo: An open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React
+
+-Typescript
+
+-Axios
 
 ### Future Enhancements
-Real-time analysis and statistical odds of winning vs busting
-Ability to adjust recommendations based on customizable Blackjack rules
-Add a card counting training feature
-Enhance user interface and user experience
+-Real-time analysis and statistical odds of winning vs busting
 
-Project Link: [blackjack-react-native](https://github.com/pp-huang/blackjack-react-native)
+-Ability to adjust recommendations based on customizable Blackjack rules
 
-Enjoy the app and good luck with your Blackjack games!
+-Add a card counting training feature
+
+-Enhance user interface and user experience
+
+# Enjoy the app and good luck with your Blackjack games!
