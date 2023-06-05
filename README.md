@@ -5,7 +5,9 @@ This is a mobile application built using React Native and Expo, designed to help
 
 ### Prerequisites
 Before you begin, ensure you have installed the latest version of:
-[Node.js](https://nodejs.org/en)
+
+[React Native](https://reactnative.dev/docs/environment-setup)
+
 [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
 ### Clone the repository
